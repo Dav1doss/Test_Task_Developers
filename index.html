@@ -24,6 +24,8 @@
             <div class="header-content-block">
                 <a class="logo" href="#"><img src="img/logo.svg" alt="Логотип"></a>
 
+                <button class="mobile-btn header__burger-open burger"></button>
+
                 <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-list-item">
@@ -40,6 +42,24 @@
                         </li>
                     </ul>
                 </nav>
+          
+                  <nav class="header__nav burger">
+          
+                    <ul class="nav__list-burger burger">
+                      <li class="burger__list__item">
+                        <a class="nav-link" href="#services">Услуги</a>
+                      </li>
+                      <li class="burger__list__item">
+                        <a class="nav-link" href="#portfolio">Портфолио</a>
+                      </li>
+                      <li class="burger__list__item">
+                        <a class="nav-link" href="#stages">Этапы</a>
+                      </li>
+                      <li class="burger__list__item">
+                        <a class="nav-link" href="#">Дизайнеры</a>
+                      </li>
+                    </ul>
+                  </nav>
 
                 <a class="btn nav-btn">Заказать</a>
             </div>
@@ -230,6 +250,81 @@
                         </div>
                     </li>
                 </ul>
+
+
+                <div class="swiper portfolio-swiper">
+
+                    <div class="swiper-wrapper">
+
+                    <div class="swiper-slide swiper-slide-reset">
+                        <div class="content-slider content-slide-portfolio">
+                            <ul class="portfolio-list portfolio-list-slider">
+                                <li class="portfolio-list-item portfolio_1">
+                                    <div class="portfolio-content-card">
+                                        <a class="portfolio-item-link" href="#">
+                                            <h3 class="portfolio-title">Онлайн-магазин</h3>
+                                            <p class="portfolio-descr">для оптовых покупок</p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="portfolio-list-item portfolio_2">
+                                    <div class="portfolio-content-card">
+                                        <a class="portfolio-item-link" href="#">
+                                            <h3 class="portfolio-title">Онлайн-магазин</h3>
+                                            <p class="portfolio-descr">для флористов</p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="portfolio-list-item portfolio_3">
+                                    <div class="portfolio-content-card">
+                                        <a class="portfolio-item-link" href="#">
+                                            <h3 class="portfolio-title">Онлайн-магазин</h3>
+                                            <p class="portfolio-descr">для парикмахеров</p>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-reset">
+                        <div class="content-slider content-slide-portfolio">
+                            <ul class="portfolio-list portfolio-list-slider">
+                                <li class="portfolio-list-item portfolio_4">
+                                    <div class="portfolio-content-card">
+                                        <a class="portfolio-item-link" href="#">
+                                            <h3 class="portfolio-title">Онлайн-магазин</h3>
+                                            <p class="portfolio-descr">для визажистов</p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="portfolio-list-item portfolio_5">
+                                    <div class="portfolio-content-card">
+                                        <a class="portfolio-item-link" href="#">
+                                            <h3 class="portfolio-title">Онлайн-магазин</h3>
+                                            <p class="portfolio-descr">для кондитеров</p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="portfolio-list-item portfolio_6">
+                                    <div class="portfolio-content-card">
+                                        <a class="portfolio-item-link" href="#">
+                                            <h3 class="portfolio-title">Онлайн-магазин</h3>
+                                            <p class="portfolio-descr">для художников</p>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    
+            
+                </div>
+
+                <div class="slider-buttons portfolio-swiper-btn">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next frame-mobile"></div>
+                </div>
                 
                     
             </div>
@@ -238,7 +333,7 @@
         <section class="more-info">
             <div class="container">
                 <div class="more-info-content-block">
-                    <h2 class="info-title">Необходимо больше информации?</h2>
+                    <h2 class="section-title info-title">Необходимо больше информации?</h2>
                     <p class="descr info-descr">
                         Если Вы владелец онлайн-магазина или только начинаете свой путь в электронной коммерции и вам нужен уникальный дизайн онлайн магазина для стартапа, обратитесь к нашему веб дизайнеру. За выгодную цену и короткий период времени, он поможет  визуализировать ваш веб проект.
                     </p>
@@ -265,7 +360,6 @@
                         </div>
                         <div class="form-box-input-btn form-element">
                             <a class="btn form-element-btn">Отправить</a>
-        
                         </div>
                     </form>
                 </div>
@@ -279,7 +373,7 @@
             <ul class="footer-list">
                 <li class="footer-list-item footer-one">
                     <a href="#"><img class="footer-logo" src="img/logo.svg" alt="Логотип"></a>
-                    
+                
                     <ul class="social-list">
                         <li class="social-list-item">
                             <a href="https://www.instagram.com/" target="_blank">
@@ -320,6 +414,34 @@
                         </li>
                         <li class="number-list-item">
                             <a class="number-item" href="tel:+79805585949">Валерия: +79805585949</a>
+                        </li>
+                    </ul>
+
+                    <ul class="social-list-mobile">
+                        <li class="social-list-item">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="img/inst.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="img/fb.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="https://web.telegram.org/k/" target="_blank">
+                                <img src="img/tg.svg" alt="Telegram">
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="https://www.viber.com/ru/" target="_blank">
+                                <img src="img/vb.svg" alt="Viber">
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="https://www.whatsapp.com/?lang=ru" target="_blank">
+                                <img src="img/wp.svg" alt="WhatsApp">
+                            </a>
                         </li>
                     </ul>
                 </li>
